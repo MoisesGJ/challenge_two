@@ -1,3 +1,22 @@
+header div div div .ctn-list-item .subtitle-other {
+  margin-left: 2rem;
+}
+header div div div .ctn-list-item .network-icon {
+  margin: 1rem 2rem;
+}
+header div div div .ctn-list-item .network-icon a {
+  margin-left: 0.8rem;
+}
+header div div div .ctn-list-item .network-icon a img {
+  width: 100%;
+}
+header div div div .ctn-list-item .network-icon a:nth-of-type(1) {
+  margin-left: 0;
+}
+header div div div .ctn-list-item .network-icon a:hover {
+  background: #5e5ecc;
+  border-radius: 100%;
+}
 header div div div .ctn-list-item ul li {
   padding: 0.5rem;
 }
@@ -10,15 +29,38 @@ header div div div .ctn-list-item ul li a {
 }
 
 @media only screen and (min-width: 600px) {
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .subtitle-other {
+    margin-left: 2rem;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .network-icon {
+    margin: 1rem 2rem;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .network-icon a {
+    margin-left: 0.8rem;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .network-icon a img {
+    width: 30px;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .network-icon a:nth-of-type(1) {
+    margin-left: 0;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item .network-icon a:hover {
+    background: #5e5ecc;
+    border-radius: 100%;
+  }
   .aside-menu div aside:nth-of-type(1) .ctn-list-item ul li {
     padding: 0.2rem;
   }
   .aside-menu div aside:nth-of-type(1) .ctn-list-item ul li:hover {
     background: #e6e6e6;
     text-decoration: underline;
+    color: #5e5ecc !important;
   }
   .aside-menu div aside:nth-of-type(1) .ctn-list-item ul li a {
     color: #242425;
     padding-left: 1rem;
+  }
+  .aside-menu div aside:nth-of-type(1) .ctn-list-item ul li a:hover {
+    color: #5e5ecc;
   }
 }/*# sourceMappingURL=style.css.map */

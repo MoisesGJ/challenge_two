@@ -16,7 +16,7 @@
   <!-- NAV -->
   <header>
     <nav class="navbar p-0">
-      <div class="container-md p-0 justify-content-between flex-nowrap">
+      <div class="container-fluid mx-2 py-2 justify-content-between flex-nowrap">
         <div class="d-flex">
           <button class="navbar-toggler mx-1 border-0 d-md-none" type="button" data-bs-toggle="offcanvas"
             data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -108,42 +108,66 @@
               </li>
             </ul> -->
 
-            <div class="ctn-list-item container- d-flex flex-column">
+            <div class="ctn-list-item d-flex flex-column">
               <ul class="">
                 <li class="d-flex">
-                 <p>🏠</p>
-                  <a  class="text-decoration-none" href="">Home</a>
+                  <p>🏠</p>
+                  <a class="text-decoration-none" href="">Home</a>
                 </li>
                 <li class="d-flex">
-                 <p>📝</p>
-                  <a  class="text-decoration-none" href="">Listings</a>
+                  <p>📝</p>
+                  <a class="text-decoration-none" href="">Listings</a>
                 </li>
-                <li class="d-flex"><p class="">🎤</p><a  class="text-decoration-none" href="">Podcasts</a></li>
-                <li class="d-flex"><p class="">📹</p><a  class="text-decoration-none" href="">Videos</a></li>
-                <li class="d-flex"><p class="">🏷️</p><a  class="text-decoration-none" href="">Tags</a></li>
-                <li class="d-flex"><p class="">💡</p><a  class="text-decoration-none" href="">FAQ</a></li>
-                <li class="d-flex"><p class=""></p><a  class="text-decoration-none" href="">Forem Shop</a></li>
-                <li class="d-flex"><p class="">💝</p><a  class="text-decoration-none" href="">Sponsors</a></li>
-                <li class="d-flex"><p class=""></p><a  class="text-decoration-none" href="">About</a></li>
-                <li class="d-flex"><p class="">📱</p><a  class="text-decoration-none" href="">Contact</a></li>
-                <li class="d-flex"><p class="">📖 </p><a  class="text-decoration-none" href="">Guides</a></li>
-                <li class="d-flex"><p class="">:🤔</p><a  class="text-decoration-none" href="">Software Comparisons</a></li>
-              </ul> 
-
-              <h3>Other</h3>
-              <ul>
-                <li class="d-flex"><a class="text-decoration-none" href="">Code if Conduct</a></li>
-                <li class="d-flex"><img src="" alt=""><a class="text-decoration-none" href="">Privacy Policy</a></li>
-                <li class="d-flex"><img src="" alt=""><a class="text-decoration-none" href="">Terms of use</a></li>
+                <li class="d-flex">
+                  <p class="">🎤</p><a class="text-decoration-none" href="">Podcasts</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">📹</p><a class="text-decoration-none" href="">Videos</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">🏷️</p><a class="text-decoration-none" href="">Tags</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">💡</p><a class="text-decoration-none" href="">FAQ</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">🛍 </p><a class="text-decoration-none" href="">Forem Shop</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">💝</p><a class="text-decoration-none" href="">Sponsors</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">🧮 </p><a class="text-decoration-none" href="">About</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">📱</p><a class="text-decoration-none" href="">Contact</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">📖 </p><a class="text-decoration-none" href="">Guides</a>
+                </li>
+                <li class="d-flex">
+                  <p class="">:🤔</p><a class="text-decoration-none" href="">Software Comparisons</a>
+                </li>
               </ul>
+
+              <h3 class="fs-6 fw-bold d-flex subtitle-other">Other</h3>
+              <ul>
+                <li class="d-flex"><p>👍</p><a class="text-decoration-none" href="">Code if Conduct</a></li>
+                <li class="d-flex"><p>🤓</p><a class="text-decoration-none" href="">Privacy Policy</a></li>
+                <li class="d-flex"><p>👀</p><a class="text-decoration-none" href="">Terms of use</a></li>
+              </ul>
+
+              <div class="network-icon d-flex">
+                <a href=""><img src="./source/image/tw.ico" alt=""></a>
+                <a href=""><img src="./source/image/fb.ico" alt=""></a>
+                <a href=""><img src="./source/image/git.ico" alt=""></a>
+                <a href=""><img src="./source/image/ig.ico" alt=""></a>
+                <a href=""><img src="./source/image/mastodon.ico" alt=""></a>
+              </div>
             </div>
             
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar" />
-              <button class="btn btn-outline-success" type="submit">
-                Buscar
-              </button>
-            </form>
+          
+
           </div>
         </div>
       </div>
@@ -154,36 +178,124 @@
   <div class="aside-menu container-fluid ">
     <div class="row">
       <aside class="col-3 d-none d-md-block">
-        <div class="ctn-list-item container-fluid d-flex flex-column">
-          <ul class="">
+        <div class="ctn-list-item mx-0 d-flex flex-column">
+          <ul class="mx-0">
             <li class="d-flex">
-             <p>🏠</p>
-              <a  class="text-decoration-none" href="">Home</a>
+              <p>🏠</p>
+              <a class="text-decoration-none" href="">Home</a>
             </li>
             <li class="d-flex">
-             <p>📝</p>
-              <a  class="text-decoration-none" href="">Listings</a>
+              <p>📝</p>
+              <a class="text-decoration-none" href="">Listings</a>
             </li>
-            <li class="d-flex"><p class="">🎤</p><a  class="text-decoration-none" href="">Podcasts</a></li>
-            <li class="d-flex"><p class="">📹</p><a  class="text-decoration-none" href="">Videos</a></li>
-            <li class="d-flex"><p class="">🏷️</p><a  class="text-decoration-none" href="">Tags</a></li>
-            <li class="d-flex"><p class="">💡</p><a  class="text-decoration-none" href="">FAQ</a></li>
-            <li class="d-flex"><p class=""></p><a  class="text-decoration-none" href="">Forem Shop</a></li>
-            <li class="d-flex"><p class="">💝</p><a  class="text-decoration-none" href="">Sponsors</a></li>
-            <li class="d-flex"><p class=""></p><a  class="text-decoration-none" href="">About</a></li>
-            <li class="d-flex"><p class="">📱</p><a  class="text-decoration-none" href="">Contact</a></li>
-            <li class="d-flex"><p class="">📖 </p><a  class="text-decoration-none" href="">Guides</a></li>
-            <li class="d-flex"><p class="">:🤔</p><a  class="text-decoration-none" href="">Software Comparisons</a></li>
-          </ul> 
-
-          <h3>Other</h3>
-          <ul>
-            <li class="d-flex"><a class="text-decoration-none" href="">Code if Conduct</a></li>
-            <li class="d-flex"><img src="" alt=""><a class="text-decoration-none" href="">Privacy Policy</a></li>
-            <li class="d-flex"><img src="" alt=""><a class="text-decoration-none" href="">Terms of use</a></li>
+            <li class="d-flex">
+              <p class="">🎤</p><a class="text-decoration-none" href="">Podcasts</a>
+            </li>
+            <li class="d-flex">
+              <p class="">📹</p><a class="text-decoration-none" href="">Videos</a>
+            </li>
+            <li class="d-flex">
+              <p class="">🏷️</p><a class="text-decoration-none" href="">Tags</a>
+            </li>
+            <li class="d-flex">
+              <p class="">💡</p><a class="text-decoration-none" href="">FAQ</a>
+            </li>
+            <li class="d-flex">
+              <p class="">🛍 </p><a class="text-decoration-none" href="">Forem Shop</a>
+            </li>
+            <li class="d-flex">
+              <p class="">💝</p><a class="text-decoration-none" href="">Sponsors</a>
+            </li>
+            <li class="d-flex">
+              <p class="">🧮 </p><a class="text-decoration-none" href="">About</a>
+            </li>
+            <li class="d-flex">
+              <p class="">📱</p><a class="text-decoration-none" href="">Contact</a>
+            </li>
+            <li class="d-flex">
+              <p class="">📖 </p><a class="text-decoration-none" href="">Guides</a>
+            </li>
+            <li class="d-flex">
+              <p class="">:🤔</p><a class="text-decoration-none" href="">Software Comparisons</a>
+            </li>
           </ul>
+
+          <h3 class="fs-6 fw-bold d-flex subtitle-other">Other</h3>
+          <ul>
+            <li class="d-flex"><p>👍</p><a class="text-decoration-none" href="">Code if Conduct</a></li>
+            <li class="d-flex"><p>🤓</p><a class="text-decoration-none" href="">Privacy Policy</a></li>
+            <li class="d-flex"><p>👀</p><a class="text-decoration-none" href="">Terms of use</a></li>
+          </ul>
+
+          <div class="network-icon d-flex">
+            <a href=""><img src="./source/image/tw.ico" alt=""></a>
+            <a href=""><img src="./source/image/fb.ico" alt=""></a>
+            <a href=""><img src="./source/image/git.ico" alt=""></a>
+            <a href=""><img src="./source/image/ig.ico" alt=""></a>
+            <a href=""><img src="./source/image/mastodon.ico" alt=""></a>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="fs-6 fw-light card-title d-flex justify-content-between">
+                DEV community
+                <a  href="#" class="fs-5 text-dark text-decoration-none">...</a>
+              </h5>
+              <img src="./source/image/img.jpeg" class="card-img-top" alt="">
+              <p href="#" class="my-2 fw-bolder fs-4 text-decoration-none">It's time to change it up.
+                <div>
+                  <p class="comment__vinc"
+                  href="#">You can change your feed and see more relevant posts by adding a rating to different tags on DEV.
+                  <a  href="#" class="fs-12 text-secondary ">Head here</a>
+                   to adjust your weights.</p>
+                </div>
+              </p>
+              
+              
+              
+             
+            </div>
+          </div>
+
+          <div class="card mb-4">
+            <div class="card-body">
+              <h5 class="card-title d-flex justify-content-between">
+                DEV community
+              </h5>
+              
+              <p href="#" class="my-2 text-dark text-decoration-none">DEV runs on 100% open source code known as 
+                <div>
+                  <a class="comment__vinc"
+                  href="#">Forem.</a>
+                </div>
+              </p>
+              
+              <p href="#" class="my-2 text-dark text-decoration-none">Contribute to the codebase or host your own!
+                
+              </p>
+              <p>
+                Check these out! 👇
+              </p>
+              <ul class="listing__type" href="#" class="my-2 text-dark text-decoration-none">
+                <div>
+                  <li>
+                    <a href="#">Self-Host-instrctions</a>
+                  </li>
+                    
+                 
+                  <li>
+                    <a href="#">Self-Host-instrctions</a>
+                  </li>
+                </div>
+              </ul>
+              
+             
+            </div>
+          </div>
+
+          
         </div>
-        
+
       </aside>
       <main class="col-12 col-md-9 col-lg-6 bg-success">
         <section class="d-flex flex-column justify-content-center align-items-center">

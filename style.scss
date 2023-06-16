@@ -1,0 +1,51 @@
+header {
+  div {
+    div {
+      div {
+        .ctn-list-item {
+          ul {
+            li {
+              padding: 0.5rem;
+
+              &:hover {
+                background: #e6e6e6;
+              }
+
+              a {
+                color: #242425;
+                padding-left: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+
+  .aside-menu {
+    div {
+      aside:nth-of-type(1) {
+        .ctn-list-item {
+          ul {
+            li {
+              padding: 0.2rem;
+
+              &:hover {
+                background: #e6e6e6;
+                text-decoration: underline;
+              }
+
+              a {
+                color: #242425;
+                padding-left: 1rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
